@@ -20,6 +20,12 @@ int main() {
 
     using namespace first;
 
+    //tricky stuff for now,
+    // using namespace std::cout;
+
+    // same thing for second namespace
+    // using namespace second;
+
     // if you uncomment this than this would override every instance of a different namespace and use the main namespace
     // int x = 0;
 
