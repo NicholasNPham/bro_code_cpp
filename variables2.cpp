@@ -21,6 +21,15 @@ int main(){
     bool power = true;
     bool forSale = true;
 
+    // string (objects that represents a sequence of text)
+    std::string name = "Nick";
+    std::string day = "Friday";
+    std::string food = "Banh Mi";
+    std::string fakeStreet = "123 Fake St.";
+
+    std::cout << "Hello " << name << "\n";
+    std::cout << "You are " << age << " years old" << "\n";
+    std::cout << name << "\n";
     std::cout << power << '\n';
     std::cout << grade << '\n';
     std::cout << price << "\n";
