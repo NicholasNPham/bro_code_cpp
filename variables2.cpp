@@ -12,14 +12,18 @@ int main(){
     double gpa = 2.5;
     double temperature = 25.1;
 
-    // single character 19.44 time stamp
+    // single character 
     char grade = 'A';
     char inital = 'B';
-    
+
+    //boolean (true or false)
+    bool student = false;
+    bool power = true;
+    bool forSale = true;
+
+    std::cout << power << '\n';
     std::cout << grade << '\n';
-
     std::cout << price << "\n";
-
     std::cout << days;
 
     return 0;
