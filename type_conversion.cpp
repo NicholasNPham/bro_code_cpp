@@ -16,7 +16,6 @@ int main()
     int questions = 10;
     double score = correct/ (double) questions * 100;
 
-
     // because int x was intitalized as int it truncated as 3
     std::cout << x << '\n';
     
