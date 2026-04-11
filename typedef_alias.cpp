@@ -1,9 +1,13 @@
 #include <iostream>
 #include <vector>
 
-typedef std::vector<std::pair<std::string, int>> pairlist_t; // shortens the whole standerd string into pairlist
-typedef std::string text_t;
-typedef int number_t;
+// typedef std::vector<std::pair<std::string, int>> pairlist_t; // shortens the whole standerd string into pairlist
+// typedef std::string text_t;
+// typedef int number_t;
+
+using text_t = std::string;
+using number_t = int;
+
 
 int main(){
 
@@ -20,7 +24,7 @@ int main(){
 
     
     // I can use this, way shorter than typing this everytime
-    pairlist_t pairlist;
+    // pairlist_t pairlist;
 
     // my level of C++
     text_t first_name = "Nick";
