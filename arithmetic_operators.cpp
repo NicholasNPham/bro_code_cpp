@@ -14,8 +14,11 @@ int main(){
     // students-=2;
     // students--;
 
-    students = students * 2;
-    students*=2;
+    // students = students * 2;
+    // students*=2;
+
+    students = students / 2;
+    students/=2;
 
     std::cout << students << '\n';
 
