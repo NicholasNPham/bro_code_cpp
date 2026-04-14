@@ -49,6 +49,33 @@ int main()
         default:
             std::cout << "Please enter in only numbers 1-12!" << "\n";
     }
+    
+    char grade;
+
+    std::cout << "What letter grade? ";
+    std::cin >> grade;
+
+    switch(grade){
+        case 'A':
+            std::cout << "You did great!" << "\n";
+            break;
+        case 'B':
+            std::cout << "You did good!" << "\n";
+            break;
+        case 'C':
+            std::cout << "You did okay!" << "\n";
+            break;
+        case 'D':
+            std::cout << "You did bad!" << "\n";
+            break;
+        case 'F':
+            std::cout << "You failed!" << "\n";
+            break;
+        default:
+            std::cout << "Please enter in only letter grades A-F!" << "\n";
+
+    }
+
 
     return 0;
 }
