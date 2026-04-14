@@ -1,0 +1,1 @@
+in vscode settings i change "files: exclude" and added **/*.exe to help reduce the clutter in the sidebar. 
