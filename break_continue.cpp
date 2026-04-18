@@ -7,7 +7,10 @@ int main()
 
     for(int i = 1; i <= 20; i++){
         if (i == 13){
-            break;
+            continue; // skip 13
+        }
+        else if (i == 17){
+            break; // stop loop at 17
         }
         std::cout << i << "\n";
     }
