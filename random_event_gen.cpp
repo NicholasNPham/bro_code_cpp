@@ -16,7 +16,7 @@ int main()
             break;
         case 4: std::cout << "You win a gift card!\n";
             break;
-        case 5: std::cout << "You win a convert tickets!\n";
+        case 5: std::cout << "You win a concert tickets!\n";
             break;
     }
 
